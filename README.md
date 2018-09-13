@@ -28,6 +28,11 @@ And then you need to install composer packages in your project folder.
 ```
 composer install
 ```
+SQLite
+```
+sudo apt-get install php7.2-sqlite3
+```
+
 
 ## Built With
 
