@@ -34,6 +34,13 @@ sudo apt-get install php7.2-sqlite3
 
 sudo apt-get install php-sqlite-3
 ```
+## Running the tests
+
+You can run the tests by this command:
+```
+vendor/bin/phpunit tests
+```
+
 
 
 ## Built With
@@ -42,6 +49,8 @@ sudo apt-get install php-sqlite-3
 * [Composer](https://getcomposer.org/) - Dependency Management
 * [Twig](http://twig.sensiolabs.org/) - Php template engine
 * [ Doctine DBAL](http://docs.doctrine.project.org/doctrine-dbal/en/latest/index.html) - Php template engine
+[PHPUnit](https://phpunit.de/) - PHP testing framework
+
 
 ## Versioning
 

@@ -61,9 +61,8 @@ class CreateBookingController
             ->getForm()
         ;
         $form->handleRequest($request);
-        if ($form->isSubmitted() and $form isValid()) {
+        if ($form->isValid()) {
             $data = $form->getData();
-            
             $st = $this->dbConnection->executeQuery("INSERT INTO bookings (firstName, lastName, phone, email, birthday, startDate, endDate, arrivalTime, nrOfPeople, payingMethod, additionalInformation)
             VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)", [
                 $data['firstName'],
