@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "1dd84eabae56f7d92b6ff4f681168a86",
+    "content-hash": "664729ee99701979618f9b91b0d2f89c",
     "packages": [
         {
             "name": "doctrine/cache",

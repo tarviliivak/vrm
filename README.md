@@ -31,6 +31,8 @@ composer install
 SQLite
 ```
 sudo apt-get install php7.2-sqlite3
+
+sudo apt-get install php-sqlite-3
 ```
 
 
@@ -39,6 +41,7 @@ sudo apt-get install php7.2-sqlite3
 * [Silex](http://silex.sensiolabs.org/) - The web framework used
 * [Composer](https://getcomposer.org/) - Dependency Management
 * [Twig](http://twig.sensiolabs.org/) - Php template engine
+* [ Doctine DBAL](http://docs.doctrine.project.org/doctrine-dbal/en/latest/index.html) - Php template engine
 
 ## Versioning
 
